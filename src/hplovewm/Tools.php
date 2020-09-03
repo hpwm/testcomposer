@@ -11,6 +11,11 @@ namespace hplovewm\testcomposer;
 
 class Tools
 {
+    public function __construct()
+    {
+        echo 'init';
+    }
+
     public static function test()
     {
         return 'test';
