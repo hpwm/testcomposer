@@ -11,5 +11,8 @@ namespace hplovewm\testcomposer;
 
 class Tools
 {
-
+    public static function test()
+    {
+        return 'test';
+    }
 }
